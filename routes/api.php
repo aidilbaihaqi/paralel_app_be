@@ -4,4 +4,4 @@ use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::post('/usres', [UserController::class, 'register']);
+Route::post('/users', [UserController::class, 'register']);
